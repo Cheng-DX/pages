@@ -1,5 +1,5 @@
 <template>
-  <svg width="10em" height="10em" viewBox="0 0 24 24">
+  <svg viewBox="0 0 24 24" class="icon">
     <path
       fill="white"
       fillRule="evenodd"
@@ -7,3 +7,22 @@
     ></path>
   </svg>
 </template>
+
+<style scoped>
+.icon {
+  width: 10em;
+  height: 10em;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icon:hover {
+  animation: rotate 2s;
+}
+</style>

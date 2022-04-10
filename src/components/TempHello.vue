@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import BuildingIcon from './icons/BuildingIcon.vue'
 import HandleIcon from './icons/HandleIcon.vue'
+import { ref } from 'vue'
 </script>
 
 <template>
   <div class="hello-root">
     <building-icon />
-    <span class="content">还在建设中</span>
+    <span class="content">建设中</span>
     <a href="https://cheng-dx.github.io/handle/" class="link">
       <handle-icon style="margin-top: 20px" />
     </a>
