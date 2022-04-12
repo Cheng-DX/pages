@@ -1,16 +1,31 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import BuildingIcon from './icons/BuildingIcon.vue'
 import HandleIcon from './icons/HandleIcon.vue'
-import { ref } from 'vue'
+import PixelIcon from './icons/PixelIcon.vue'
+import ProjectItem from './ProjectItem.vue'
+
+const projects = ref([
+  {
+    path: 'handle',
+    icon: HandleIcon
+  },
+  {
+    path: 'pixel-box',
+    icon: PixelIcon
+  }
+])
 </script>
 
 <template>
   <div class="hello-root">
     <building-icon />
     <span class="content">建设中</span>
-    <a href="https://cheng-dx.github.io/handle/" class="link">
-      <handle-icon style="margin-top: 20px" />
-    </a>
+    <div class="projects">
+      <project-item v-for="p in projects" :path="p.path">
+        <component :is="p.icon" class="project-icon" />
+      </project-item>
+    </div>
   </div>
 </template>
 
@@ -27,9 +42,16 @@ import { ref } from 'vue'
   color: #fff;
   font-size: 2em;
 }
-.link {
-  color: #fff;
-  font-size: 1em;
-  text-decoration: none;
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.project-icon {
+  width: 30px;
+  height: 30px;
+  margin-inline: 5px;
 }
 </style>
