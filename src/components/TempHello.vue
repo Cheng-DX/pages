@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import BuildingIcon from './icons/BuildingIcon.vue'
 import HandleIcon from './icons/HandleIcon.vue'
 import PixelIcon from './icons/PixelIcon.vue'
+import FormulaIcon from './icons/FormulaIcon.vue'
 import ProjectItem from './ProjectItem.vue'
 
 const projects = ref([
@@ -13,6 +14,10 @@ const projects = ref([
   {
     path: 'pixel-box',
     icon: PixelIcon
+  },
+  {
+    path: 'formula-editor',
+    icon: FormulaIcon
   }
 ])
 </script>
