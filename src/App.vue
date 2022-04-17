@@ -10,8 +10,8 @@ import TempHello from './components/TempHello.vue'
 
 <style scoped>
 .root {
-  background-color: #0dad52;
-  min-height: 100vh;
+  background-color: #62bada;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

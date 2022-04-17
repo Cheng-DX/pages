@@ -43,8 +43,7 @@ const projects = ref([
 
 <style scoped>
 .hello-root {
-  background-color: #0dad52;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
