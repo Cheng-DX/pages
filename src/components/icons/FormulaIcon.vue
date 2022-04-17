@@ -12,10 +12,3 @@
     </g>
   </svg>
 </template>
-
-<style scoped>
-.icon {
-  width: 10em;
-  height: 10em;
-}
-</style>

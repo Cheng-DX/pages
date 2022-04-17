@@ -3,17 +3,7 @@ import TempHello from './components/TempHello.vue'
 </script>
 
 <template>
-  <div class="root">
+  <div bgc-62bada h-100vh flex justify-center items-center>
     <TempHello />
   </div>
 </template>
-
-<style scoped>
-.root {
-  background-color: #62bada;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>

@@ -27,48 +27,16 @@ const projects = ref([
 </script>
 
 <template>
-  <div class="hello-root">
-    <building-icon />
-    <span class="content">建设中</span>
-    <div class="projects">
+  <div hp-100 flex-center flex-col>
+    <building-icon h-200px />
+    <span text-2em color-white>建设中</span>
+    <div flex-center mt-20px>
       <project-item v-for="p in projects" :path="p.path" :title="p.name">
-        <component :is="p.icon" class="project-icon" />
+        <component :is="p.icon" w-30px h-30px m-2px />
       </project-item>
     </div>
     <a href="https://github.com/Cheng-DX">
-      <git-hub-icon class="github-icon" />
+      <git-hub-icon w-20px h-20px mt-10px />
     </a>
   </div>
 </template>
-
-<style scoped>
-.hello-root {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.content {
-  color: #fff;
-  font-size: 2em;
-}
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-.project-icon {
-  width: 30px;
-  height: 30px;
-  margin-inline: 5px;
-}
-.github-icon {
-  width: 20px;
-  height: 20px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-</style>
