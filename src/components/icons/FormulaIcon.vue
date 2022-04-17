@@ -1,5 +1,5 @@
 <template>
-  <svg viewBox="0 0 16 16" class="icon">
+  <svg h-30px viewBox="0 0 16 16" class="icon">
     <g fill="currentColor">
       <path
         fill="white"
