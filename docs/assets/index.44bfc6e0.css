@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmmono/v8/aFTU7PB1QTsUX8KYhh0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmserifdisplay/v9/-nFnOHM81r4j6k0gjAW3mujVU2B2K_c.ttf) format('truetype');
+}
+.flex-center,[flex-center=""]{display:flex;align-items:center;justify-content:center;}.m-2px,[m-2px=""]{margin:2px;}.m13\.691{margin:3.42275rem;}.mt-10px,[mt-10px=""]{margin-top:10px;}.mt-20px,[mt-20px=""]{margin-top:20px;}.h-100vh,[h-100vh=""]{height:100vh;}.h-200px,[h-200px=""]{height:200px;}.h-20px,[h-20px=""]{height:20px;}.h-25px,[h-25px=""]{height:25px;}.h-30px,[h-30px=""]{height:30px;}.h-32px,[h-32px=""]{height:32px;}.h-36px,[h-36px=""]{height:36px;}.w-20px,[w-20px=""]{width:20px;}.w-30px,[w-30px=""]{width:30px;}.w-36px,[w-36px=""]{width:36px;}.flex,[flex=""]{display:flex;}.flex-col,[flex-col=""]{flex-direction:column;}.items-center,[items-center=""]{align-items:center;}.justify-center,[justify-center=""]{justify-content:center;}[fill~="white"]{--un-fill-opacity:1;fill:rgba(255,255,255,var(--un-fill-opacity));}.text-2em,[text-2em=""]{font-size:2em;}.color-white,[color-white=""]{--un-text-opacity:1;color:rgba(255,255,255,var(--un-text-opacity));}[content~="initial-scale\=1\.0"]{content:"initial-scale=1.0";}[content~="width\=device-width\2c "]{content:"width=device-width,";}.hp-100,[hp-100=""]{height:100%;}.bgc-62bada,[bgc-62bada=""]{background-color:#62bada;}
