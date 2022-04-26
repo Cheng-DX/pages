@@ -13,5 +13,5 @@ export {
   FormulaIcon,
   ConfigIcon,
   TypeScriptIcon,
-  VueEChartsIcon
+  VueEChartsIcon,
 }

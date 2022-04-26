@@ -6,10 +6,9 @@ const props = defineProps<{
   path: string
 }>()
 
-const finalPath = computed(() => {
-  const path = props.path
-  return path.startsWith('http') ? path : `${basePath}${path}`
-})
+const finalPath = computed(() =>
+  props.path.startsWith('http') ? props.path : `${basePath}${props.path}`,
+)
 </script>
 
 <template>
