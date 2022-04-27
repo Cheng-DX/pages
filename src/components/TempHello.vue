@@ -27,10 +27,9 @@ const { x, y } = useMouse()
 </script>
 
 <template>
-  <hover-card :x="x" :y="y" :clone-info="cloneInfo" />
   <div hp-100 flex-center flex-col>
     <building-icon h-200px />
-    <span text-2em color-white>建设中</span>
+    <span text-2em color-white>Projects</span>
     <div flex-center mt-20px>
       <project-item
         v-for="p in projects"

@@ -2,6 +2,7 @@ import { type Component, shallowRef } from 'vue'
 import {
   ConfigIcon,
   FormulaIcon,
+  FormulaReactIcon,
   HandleIcon,
   PixelIcon,
   TypeScriptIcon,
@@ -33,6 +34,12 @@ export function useProjects() {
       repo: 'formula-editor',
       name: '公式编辑器',
       icon: FormulaIcon,
+    },
+    {
+      path: 'formula-editor-react',
+      repo: 'formula-editor-react',
+      name: '公式编辑器-React',
+      icon: FormulaReactIcon,
     },
     {
       path: 'https://github.com/Cheng-DX/config',

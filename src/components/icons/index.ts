@@ -5,6 +5,7 @@ import FormulaIcon from './FormulaIcon.vue'
 import ConfigIcon from './ConfigIcon.vue'
 import TypeScriptIcon from './TypeScriptIcon.vue'
 import VueEChartsIcon from './VueEChartsIcon.vue'
+import FormulaReactIcon from './FormulaReactIcon.vue'
 
 export {
   BuildingIcon,
@@ -14,4 +15,5 @@ export {
   ConfigIcon,
   TypeScriptIcon,
   VueEChartsIcon,
+  FormulaReactIcon,
 }

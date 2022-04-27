@@ -12,7 +12,7 @@ const finalPath = computed(() =>
 </script>
 
 <template>
-  <a :href="finalPath">
+  <a :href="finalPath" flex-center ml-1>
     <slot />
   </a>
 </template>
